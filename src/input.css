@@ -42,3 +42,9 @@ body {
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45 transition;
 }
+
+.test {
+background: rgb(0,108,255);
+background: linear-gradient(0deg, rgba(0,108,255,0.7708333333333334) 40%, rgba(255,255,255,0.7624299719887955) 100%);
+}
+

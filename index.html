@@ -6,7 +6,7 @@
   <link href="src/output.css" rel="stylesheet">
 </head>
 <body>
-    <header class="max-w-screen-xl bg-transparent absolute top-0 lg:top-5 left-0 w-full flex items-center z-10 lg:w-[75%] lg:left-1/2 lg:-translate-x-1/2 lg:rounded-full ">
+    <header class="bg-transparent absolute top-0 lg:top-5 left-0 w-full flex items-center z-10 lg:w-[50%] lg:left-1/2 lg:-translate-x-1/2 lg:rounded-full ">
         <div class="container">
             <div class="flex items-center relative justify-between">
                 <div class="px-4">
@@ -16,18 +16,18 @@
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden" >
                        <span class="hamburger-line origin-top-left duration-300 ease-in-out"></span>
                        <span class="hamburger-line duration-300 ease-in-out"></span>
-                       <span class="hamburger-line origin-bottom-left  duration-300 ease-in-out"></span>
+                       <span class="hamburger-line origin-bottom-left duration-300 ease-in-out"></span>
                     </button>
-                    <nav id="nav-menu" class="hidden absolute p-5 bg-white shadow-lg rounded-lg w-full max-w-[250px] right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <nav id="nav-menu" class="hidden bg-white absolute shadow-lg rounded-lg w-full max-w-[75%] right-4  top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class=" text-dark py-2 mx-8 group-hover:text-primary flex font-bold">Home</a>
+                                <a href="#home" class=" text-dark py-2 mx-8 group-hover:text-blue-600 flex font-bold">Home</a>
                             </li>
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-primary flex">Project</a>
+                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-blue-600   font-bold flex">Project</a>
                             </li>
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-primary flex">About</a>
+                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-blue-600  font-bold flex">About</a>
                             </li>
                         </ul>
                     </nav>
@@ -38,15 +38,15 @@
 
 
   <!-- Hero Section Start -->
-    <section id="home" class="pt-20 lg:pt-36">
+    <section id="home" class="pt-36">
         <div class="container lg:w-[75%]">
-            <div class="flex flex-wrap ">
-                <div class="w-full self-center px-4 lg:w-1/2">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 ">
                     <h1 class="text-base font-bold text-primary md:text-xl lg:text-2xl">Hi, Im
                         <span class="font-mono text-base font-bold kata md:text-xl lg:text-2xl">Rizky</span>👋🏻
                     </h1>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Mahasiswa | Web Developer</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, est.</p>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">I'm Website Developer. Currently learning everything. I publish my experiment project on Github.</p>
                     <div class="flex">
                     <a href="#" class="flex text-base font-semibold bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">See my Full Profile &nbsp;
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -55,7 +55,7 @@
                       </a>
                     </div>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2">
+                <!-- <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:right-0 lg:mt-9 ">
                         <img src="/src/img/fotoku.png" alt="Mohammad Rizky Ramadhani" class="relative z-10 mx-auto max-w-full">
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-150">
@@ -64,13 +64,13 @@
                             </svg>
                         </span>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
   <!-- end Section -->
 
-  <section id="keterampilan" class="pt-36 mb-32">
+  <section id="keterampilan" class="pt-32">
     <div class="container lg:w-[75%]">
       <div class="flex flex-wrap">
         <div class="w-full px-4">
@@ -116,6 +116,48 @@
       </div>
     </div>
   </section>
+
+  <section id="project" class="pt-32">
+    <div class="container lg:w-[75%]">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4">
+          <h2 class="text-2xl font-bold kata mb-5">Project</h2>
+        </div>
+        <div class="w-full px-4">
+          <div class="grid grid-cols-1 gap-5">
+            <div class="border-solid border-2 border-sky-400 shadow-lg rounded-2xl p-5 flex flex-col sm:flex-row items-center">
+              <!-- Image and Text for small screens -->
+              <div class="test mb-5 sm:mb-0 sm:mr-5 rounded-xl">
+                <img src="/src/img/project-1.png" alt="" class="object-cover block sm:hidden mb-5">
+              </div>
+              <div>
+                <h2 class="text-white font-bold text-2xl mb-2">Resto Apps</h2>
+                <p class="text-gray-500">Mei 2023</p>
+                <p class="text-gray-300 mt-2 overflow-hidden max-h-12 leading-6">
+                  Resto Apps merupakan proyek penyerahan untuk program Dicoding Indonesia dengan tujuan menyelesaikan kelas "Menjadi Front-End Web Developer Expert". Proyek ini dikembangkan menggunakan bahasa pemrograman JavaScript.
+                </p>
+                <a href="https://rizkyyramadhani.github.io/" class="flex items-center mt-4 text-black hover:text-blue-700">
+                  <span class="mr-2">Visit Live Web</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+          
+                
+              </div>
+              <!-- Image and Text for larger screens -->
+              <div class="hidden sm:block sm:ml-5 test rounded-xl">
+                <img src="/src/img/project-3.png" alt="" class="object-cover">
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <section id="footer" class="pt-36">
+
+  </section>
+
 
   <script src="src/js/script.js"></script>
 </body>
