@@ -12,6 +12,7 @@ window.onscroll = () => {
 
     if (window.pageYOffset > fixedNav) {
         header.classList.add('navbar-fixed');
+        header.classList.add('fixed-top');
     } else {
         header.classList.remove('navbar-fixed');
     }
