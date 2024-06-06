@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-transparent  absolute top-0 lg:top-5 left-0 w-full flex items-center z-10 lg:w-[75%] lg:left-1/2 lg:-translate-x-1/2 lg:rounded-full ">
+        <div class="container">
+            <div class="flex items-center relative justify-between">
+                <div class="px-4">
+                    <a href="index.html" class="font-bold text-lg text-primary block py-6">Rizky</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden" >
+                       <span class="hamburger-line origin-top-left duration-300 ease-in-out"></span>
+                       <span class="hamburger-line duration-300 ease-in-out"></span>
+                       <span class="hamburger-line origin-bottom-left  duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute p-5 bg-white shadow-lg rounded-lg w-full right-4 translate-x-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class=" text-dark py-2 mx-8 group-hover:text-primary flex font-bold">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-primary flex">Project</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2  mx-8 group-hover:text-primary flex">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+  <!-- Hero Section Start -->
+    <section id="home" class="pt-20 lg:pt-36">
+        <div class="container lg:w-[75%]">
+            <div class="flex flex-wrap ">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-bold text-primary md:text-xl lg:text-2xl">Hi, Im
+                        <span class="font-mono text-base font-bold kata md:text-xl lg:text-2xl">Rizky</span>👋🏻
+                    </h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Mahasiswa | Web Developer</h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, est.</p>
+                    <div class="flex">
+                    <a href="#" class="flex text-base font-semibold bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">See my Full Profile &nbsp;
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15M9 12l3 3m0 0 3-3m-3 3V2.25" />
+                      </svg>
+                      </a>
+                    </div>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:right-0 lg:mt-9 ">
+                        <img src="/src/img/fotoku.png" alt="Mohammad Rizky Ramadhani" class="relative z-10 mx-auto max-w-full">
+                        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-150">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FF0066" d="M38.1,-66.5C45.7,-61.6,45.7,-44,50.2,-30.8C54.8,-17.6,63.9,-8.8,69.7,3.3C75.5,15.5,78,30.9,69.3,37.1C60.7,43.2,41,40.1,27.6,38.8C14.2,37.5,7.1,38,0,38.1C-7.2,38.2,-14.4,37.7,-21.5,35.4C-28.6,33.1,-35.6,28.8,-44.5,22.6C-53.3,16.4,-64.1,8.2,-69.5,-3.2C-75,-14.6,-75.3,-29.1,-68.5,-38.8C-61.6,-48.4,-47.5,-53.2,-34.9,-55.3C-22.3,-57.3,-11.2,-56.6,2,-60.2C15.2,-63.7,30.5,-71.4,38.1,-66.5Z" transform="translate(100 100) scale(1.1)" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- end Section -->
+
+  <section id="keterampilan" class="pt-36 mb-32">
+    <div class="container lg:w-[75%]">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4">
+          <h2 class="text-2xl font-bold kata mb-5">Keterampilan</h2>
+        </div>
+        <div class="w-full px-4">
+          <div class="grid grid-cols-1  lg:grid-cols-2 gap-5">
+            <div class="border-solid border-2 border-sky-400 shadow-lg rounded-lg p-5">
+                <div class="flex gap-4 mb-4">
+                    <img src="/src/img/logo-html.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-css.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-bootstrap.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-tailwind.png" alt="" class="w-16 h-16">
+                </div>
+              <span class="text-white mt-8 font-bold">Markup and Stylesheet</span>
+              <p class="text-white">
+                HTML and CSS are the technologies I initially delved into due to my interest in web development. Subsequently, I became acquainted with Bootstrap, which facilitated the design process for me. Lastly, in 2023, I explored Tailwind, a tool that empowers web developers to swiftly craft responsive and visually captivating designs utilizing pre-defined utility classes.
+              </p>
+            </div>
+            <div class="border-solid border-2 border-sky-400 shadow-lg rounded-lg p-5">
+                <div class="flex gap-4 mb-4">
+                    <img src="/src/img/logo-react.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-javascript.png" alt="" class="w-16 h-16">
+                </div>
+              <span class="text-white mt-8 font-bold">Frontend Environment</span>
+              <p class="text-white">
+                HTML and CSS are the technologies I initially delved into due to my interest in web development. Subsequently, I became acquainted with Bootstrap, which facilitated the design process for me. Lastly, in 2023, I explored Tailwind, a tool that empowers web developers to swiftly craft responsive and visually captivating designs utilizing pre-defined utility classes.
+              </p>
+            </div>
+            <div class="border-solid border-2 border-sky-400 shadow-lg rounded-lg p-5">
+                <div class="flex gap-4 mb-4">
+                    <img src="/src/img/logo-php.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-laravel.png" alt="" class="w-16 h-16">
+                    <img src="/src/img/logo-api.jpeg" alt="" class="w-16 h-16">
+                </div>
+              <span class="text-white mt-8 font-bold">Backend Environment</span>
+              <p class="text-white">
+                HTML and CSS are the technologies I initially delved into due to my interest in web development. Subsequently, I became acquainted with Bootstrap, which facilitated the design process for me. Lastly, in 2023, I explored Tailwind, a tool that empowers web developers to swiftly craft responsive and visually captivating designs utilizing pre-defined utility classes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
